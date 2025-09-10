@@ -28,7 +28,5 @@ jobs:
       - name: Run Infra.sh
         run: chmod +x infra/infra.sh
               infra/infra.sh
-              
-
 
 
