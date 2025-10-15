@@ -12,5 +12,6 @@ az ml workspace set -g $RESOURCE_GROUP -w $WORKSPACE_NAME
 az ml create compute --name $CLUSTER_NAME \
                         --type amlcompute \
                         --size Standard_DS11_V2 \
-                        --min-instance 0 --max-instance 1
+                        --min-instance 0 \
+                        --max-instance 1
 
