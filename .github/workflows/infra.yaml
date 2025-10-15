@@ -13,6 +13,7 @@ jobs:
   setup-infra:
     name: Setting up infra on azureml studio
     runs-on: ubuntu-latest
+    environment: dev
     steps:
       - name: repo Checkout
         uses: actions/checkout@v3
