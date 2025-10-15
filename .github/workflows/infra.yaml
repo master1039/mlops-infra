@@ -23,7 +23,7 @@ jobs:
           # curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
           # az extension add -n ml -y
           # echo "Installed Azure CLI and ML extension"
-          az version
+          az version 
       - name: Azure login
         uses: azure/login@v1
         with:
