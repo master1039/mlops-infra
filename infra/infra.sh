@@ -1,6 +1,6 @@
 RESOURCE_GROUP="MY_MLOPS_RG"
 LOCATION="eastus2"
-WORKSPACE_NAME="mlops-workspace-automation"
+WORKSPACE_NAME="mlops-workspace-automation-new"
 CLUSTER_NAME="mlops-cluster"
 
 az group create -n $RESOURCE_GROUP -l $LOCATION

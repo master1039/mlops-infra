@@ -1,7 +1,11 @@
 name: Infra
 
 on:
-  push
+  workflow_dispatch:
+    inputs: {}
+  # push:
+  #   branches:
+  #     - master
 
 permissions:                            
   contents: read
