@@ -3,9 +3,9 @@ name: Infra
 on:
   workflow_dispatch:
     inputs: {}
-  # push:
-  #   branches:
-  #     - master
+  push:
+    branches:
+      - mlops-v1
 
 permissions:                            
   contents: read
