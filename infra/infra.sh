@@ -1,8 +1,8 @@
 RESOURCE_GROUP="MY_MLOPS_RG"
 LOCATION="eastus2"
-WORKSPACE_NAME="mlops-workspace-nervecentre"
+WORKSPACE_NAME="mlops-workspace-nervecentre-e"
 CLUSTER_NAME="mlops-cluster"
-STORAGE_NAME="mlopsstorage1039NC"  
+STORAGE_NAME="mlopsstorage1039ge"  
 FUNCTION_NAME="mlops-function"
 PLAN_NAME="mlops-func-plan"
 
